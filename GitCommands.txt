@@ -1,0 +1,18 @@
+git checkout -b GitDemo
+git add .
+git status
+git commit -m "[Niketan] add : commit message"
+git push origin GitDemo
+
+git checkout main
+git merge GitDemo
+git push
+git checkout -b GitDemo
+git add .
+git status
+git commit -m "[Niketan] add : commit message"
+git push origin GitDemo
+
+git checkout main
+git merge GitDemo
+git push
